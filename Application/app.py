@@ -19,7 +19,7 @@ import streamlit as st
 
 # data.to_csv('New_Data_Set.csv', index=False)
 
-data = pd.read_csv("Credit Card fraud Detection/New_Data_Set.csv")
+data = pd.read_csv("New_Data_Set.csv")
 
 # split data into training and testing sets
 X = data.drop(columns="Class", axis=1)
